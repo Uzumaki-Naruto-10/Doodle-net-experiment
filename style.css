@@ -1,0 +1,18 @@
+canvas {
+    border-radius: 5%;
+    animation-name: gojo;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    margin-top: 50px;
+}
+@keyframes gojo {
+    from{box-shadow: 1px 1px 38px rgb(0, 0, 0);}
+    to{box-shadow:  1px 1px 38px white;}
+}
+
+p {
+    margin-top: 10px;
+    font-size: 25px;
+    color: white;
+}
+
